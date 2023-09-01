@@ -1,0 +1,112 @@
+.todo-container{
+    background-color: grey;
+    width: 70vw;
+    margin: 7em auto;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.header{
+    font-size: 2em;
+    text-align: center;
+}
+.input-container{
+    background-color: rgb(176, 168, 156);
+    padding: 0.5em;
+    border-radius: 0.8em;
+    border: 2px solid whitesmoke;
+}
+.input{
+    font-size: 1em;
+    font-weight:large;
+    color: black;
+    background-color: whitesmoke;
+    border: 1px;
+    border-radius: 0.8em;
+    padding: .5em;
+    padding-left: 1em;
+    margin: 1em;
+    width: 80%;
+}
+.add-btn{
+    border-radius: .3em;
+    font-size: 1.4em;
+    margin: 2px;
+    padding: 0px 15px;
+    border: none;
+    cursor: pointer;
+    color:black;
+    background-color: rgb(226, 226, 196);
+
+}
+
+
+.list-task{
+    font-size: 1.25em;
+    font-weight: large;
+    font-style: italic;
+    color:rgb(94, 93, 93);
+    background-color: rgb(202, 202, 202);
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5rem;
+    
+}
+.delete-btn{
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    float: right;
+    background-color:rgb(245, 164, 164);
+}
+.checkbox{
+    float: left;
+}
+.pending{
+    font-weight: large;
+    font-style: italic;
+    color: rgb(204, 204, 204);
+}
+
+
+.list-task.completed {
+    text-decoration:dotted;
+    color:rgb(135, 142, 135);
+  }
+
+  .edit-btn{
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    float: right;
+    background-color:rgb(170, 163, 163);
+  }
+
+  .form{
+    display: flex;
+    justify-content: center;
+  }
+  .form.input{
+    font-size: 1em;
+    font-weight:large;
+    color: black;
+    background-color: whitesmoke;
+    border: 1px;
+    border-radius: 0.8em;
+    padding: .5em;
+    padding-left: 1em;
+    margin: 1em;
+    width: 80%;
+  }
+  .span-length{
+    font-weight: bold;
+    color: rgb(62, 62, 62);
+  }
